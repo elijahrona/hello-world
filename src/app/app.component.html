@@ -1,6 +1,12 @@
 <h1>Hello! Welcome to the Hello-World tutorial</h1>
 <div>
     <h1>My Chart.js Angular App</h1>
-    <app-sales-chart></app-sales-chart> <!-- Include the chart component here -->
   </div>
+
+  <div *ngIf="stockMetrics">
+    <h2>Stock Metrics</h2>
+    <pre>{{ stockMetrics | json }}</pre>
+  </div>
+
+
   

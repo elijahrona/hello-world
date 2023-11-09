@@ -6,11 +6,14 @@ import { AppComponent } from './app.component';
 
 import { NgChartsModule } from 'ng2-charts';
 import { SalesChartComponent } from './sales-chart/sales-chart.component';
+import { HomeComponent } from './home/home.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    SalesChartComponent
+    SalesChartComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule, NgChartsModule,

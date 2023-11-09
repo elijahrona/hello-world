@@ -9,5 +9,9 @@
 </head>
 <body>
   <app-root></app-root>
+  <div *ngIf="stockMetrics">
+    <h2>Stock Metrics</h2>
+    <pre>{{ stockMetrics | json }}</pre>
+  </div>
 </body>
 </html>
